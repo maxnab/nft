@@ -1,0 +1,25 @@
+.wrap {
+
+}
+
+.logo {
+  height: 56px;
+}
+
+.menu {
+  display: flex;
+  margin-right: 71px;
+  a {
+    margin-right: 67px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  width: 100%;
+}
